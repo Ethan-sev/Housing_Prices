@@ -1,3 +1,2 @@
-select * from housing_prices_city
-select statename from housing_prices_city
-where
+select RegionName, Date, Price  from housing_prices_city
+where StateName = 'OH'
